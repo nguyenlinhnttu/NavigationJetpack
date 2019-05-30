@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/frameLayout"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainFragment">
+    <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textColor="#E64A19"
+            android:text="What is your name?"/>
+    <EditText
+            android:id="@+id/enterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alex..."
+            android:padding="16dp"
+            android:inputType="textPersonName"/>
+
+    <Button
+            android:id="@+id/buttonWelcomeMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Welcome Me"/>
+
+</LinearLayout>
